@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>Timestamp Microservice</title>
+</head>
+<body>
+<div class="container">
+    <h1 >API Basejump: Timestamp Microservice</h1>
+              <p>
+                By <a href="https://www.freecodecamp.org/artitudinale1" target="_blank">Alex Garulli</a>
+            </p>
+    <blockquote>User Stories:
+        <ol>
+            <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix
+                timestamp or a natural language date (example: January 1, 2016)
+            </li>
+            <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+            <li>If it does not contain a date or Unix timestamp, it returns <code>null</code> for those properties.</li>
+        </ol>
+    </blockquote>
+    <h2>Example usage:</h2>
+    <code>https://satin-income.glitch.me/September%2004,%202017</code><br>
+    <code>https://satin-income.glitch.me/1504483200</code>
+    <h2>Example output:</h2>
+    <code>{ "unix": 1504483200, "natural": "Septmber 04, 2017" }</code><br>
+    <code>{ "unix": null, "natural": null }</code>
+</div>
+</body>
+</html>

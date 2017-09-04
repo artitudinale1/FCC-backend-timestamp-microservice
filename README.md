@@ -1,2 +1,1 @@
-# FCC-backend-timestamp-microservice
-FCC Backend Certificate: Timestamp Microservice
+# Backend Challenges boilerplate - package.json
